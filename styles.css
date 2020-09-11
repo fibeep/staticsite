@@ -218,3 +218,27 @@ input {
  #but{
 font-size:15px;     
  }
+
+ .community {
+     display: flex;
+     flex-direction: column;
+     align-content: center;
+     align-items: center;
+ }
+
+ .caja {
+     display: flex;
+     flex-direction: row;
+     background-color: lightcoral;
+     height: 400px;
+    width: 800px;
+    justify-content: space-around;
+    align-items: center;
+ }
+
+ .subox {
+     height: 300px;
+     width: 300px;
+     background-color: green;
+     border: 2px black solid;
+ }
