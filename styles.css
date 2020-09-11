@@ -176,3 +176,45 @@ justify-content: center;
     width: 200px;
     padding: 30px;
 }
+ .X{
+     display: flex;
+     align-content: center;
+     flex-direction: column;
+     justify-content: center;
+     background-image: url('bck.jpg');
+     background-size: 100%;
+     font-size: large;
+     line-height: 1.5;
+     padding: 100px;
+ }
+
+.xcenter {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 50px;
+}
+
+.acenter {
+display: flex;
+flex-direction: column;
+align-items: center;
+border:blue 10px dotted;
+line-height: .5;
+font-weight: bold;
+background-color: rgb(255, 182, 193, 0.5) ;
+
+}
+
+input {
+    opacity: 7 0%;
+    border-radius: 20px;
+}
+
+ #comments {
+     padding: 30px;
+ }
+
+ #but{
+font-size:15px;     
+ }
