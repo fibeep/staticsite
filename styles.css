@@ -51,7 +51,7 @@ nav > a {
 } 
 
 .s2 {
-    background-color:lightgrey;
+    background-color:black;
     height: 800px;
     width: 100%;
     display: flex;
@@ -64,7 +64,7 @@ nav > a {
 #new {
 font-size: 4em;
 font-family: fantasy;
-color: black;
+color: white;
 padding: 0;
 }
 
@@ -134,16 +134,19 @@ justify-content: center;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    border: black 2px solid;
     height: 400px;
     width: 250px;
-    margin: 10px;
+    margin: 30px 15px;
     font-family:'Times New Roman';
     font-size: 20px;
     line-height: 1.5;
     word-spacing: 1.5px;
-    padding: 5px;
+    padding: 10px;
      
+}
+
+#nospace {
+    font-size: 23px;
 }
 
 .serve > button {
@@ -167,7 +170,9 @@ justify-content: center;
 .f1,.f2,.f3 {
     display: flex;
     flex-direction: column;
-    align-content: center;
     color: white;
-    border: white 2px solid;
+    border: black 3px;
+    height: 200px;
+    width: 200px;
+    padding: 30px;
 }
